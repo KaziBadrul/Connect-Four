@@ -2,7 +2,7 @@
     background-color: grey;
     border: 2px solid rgba(0, 0, 0, 0.25);
     border-radius: 25px;
-    padding: 2em;
+    padding: 4vw;
 }
 
 .board button:focus {
@@ -21,4 +21,8 @@ body {
     background-color: aliceblue;
     border: 1px solid aliceblue;
     border-radius: 15px;
+}
+
+.header {
+    font-size: medium;
 }
