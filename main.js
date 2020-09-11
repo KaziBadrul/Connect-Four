@@ -97,7 +97,7 @@ $(".board button").click(function() {
 
     if (horizontalMatch() || verticalMatch() || diagonalMatch()) {
         $(".turn").text(`${current_name} has won!`);
-        gameEnd(current_player)
+        gameEnd(current_name)
 
     } else {
         current_player = current_player * -1;
